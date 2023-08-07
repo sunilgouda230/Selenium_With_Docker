@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="listeners.ExtentTestNGITestListener"/>
+    </listeners>
+    <test name="D:/Selenium_With_CI/src/test/java/testcases/TestCaseForBank.java">
+        <classes>
+            <class name="testcases.TestCaseForBank">
+                <methods>
+                    <include name="loginAndCheckBalance"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
